@@ -1,9 +1,158 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "playlists": [
+    {
+      "id": 1,
+      "title": "Session created at : 2024-09-08 14:22:33.599",
+      "questions": [
+        1,
+        3,
+        5,
+        7,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Session created at : 2024-10-11 02:51:30.640",
+      "questions": [
+        1,
+        3,
+        5,
+        7,
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Session created at : 2024-10-11 13:36:09.902",
+      "questions": [
+        1,
+        3,
+        5,
+        7,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Session created at : 2024-10-13 00:11:37.611",
+      "questions": []
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "unities": [
+    {
+      "id": 1,
+      "title": "unity1"
+    },
+    {
+      "id": 2,
+      "title": "unity2"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "lectures": [
+    {
+      "id": 1,
+      "title": "lec1-uni1",
+      "unityId": 1
+    },
+    {
+      "id": 2,
+      "title": "lec2-uni1",
+      "unityId": 1
+    },
+    {
+      "id": 3,
+      "title": "lec1-uni2",
+      "unityId": 2
+    },
+    {
+      "id": 4,
+      "title": "lec2-uni2",
+      "unityId": 2
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "title": "a",
+      "lectureId": 1,
+      "unityId": 1
+    },
+    {
+      "id": 2,
+      "title": "b",
+      "lectureId": 1,
+      "unityId": 1
+    },
+    {
+      "id": 3,
+      "title": "c",
+      "lectureId": 2,
+      "unityId": 1
+    },
+    {
+      "id": 4,
+      "title": "d",
+      "lectureId": 2,
+      "unityId": 1
+    },
+    {
+      "id": 5,
+      "title": "e",
+      "lectureId": 3,
+      "unityId": 2
+    },
+    {
+      "id": 6,
+      "title": "f",
+      "lectureId": 3,
+      "unityId": 2
+    },
+    {
+      "id": 7,
+      "title": "g",
+      "lectureId": 4,
+      "unityId": 2
+    },
+    {
+      "id": 8,
+      "title": "h",
+      "lectureId": 4,
+      "unityId": 2
+    }
+  ],
+  "playlistwithquestions": [
+    {
+      "id": 9,
+      "questionId": 2
+    },
+    {
+      "id": 10,
+      "questionId": 2
+    },
+    {
+      "id": 11,
+      "questionId": 2
+    },
+    {
+      "id": 12,
+      "questionId": 2
+    },
+    {
+      "id": 13,
+      "questionId": 2
+    },
+    {
+      "id": 14,
+      "questionId": 2
+    },
+    {
+      "id": 15,
+      "questionId": 2
+    },
+    {
+      "id": 16,
+      "questionId": 2
+    }
+  ]
 }
